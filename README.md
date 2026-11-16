@@ -1,16 +1,98 @@
-# React + Vite
+# TaskKiller
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern task management dashboard built with React and Vite.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+TaskKiller is a React-based task management application designed to organize tasks, projects, and user settings through a clean dashboard interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Dashboard overview
+- Task management
+- Project management
+- User profile
+- Settings page
+- Login page
+- Responsive sidebar navigation
+- Mobile sidebar menu
+- Client-side routing
+- Reusable React components
+- Logout functionality
+- Local JSON data for development
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router
+- JavaScript
+- Tailwind CSS
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── DashboardLayout.jsx
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   ├── ProjectCard.jsx
+│   ├── Sidebar.jsx
+│   ├── StatCard.jsx
+│   ├── TaskCard.jsx
+│   └── TaskGrid.jsx
+│
+├── pages/
+│   ├── Dashboard.jsx
+│   ├── Login.jsx
+│   ├── Profile.jsx
+│   ├── Settings.jsx
+│   ├── Tasks.jsx
+│   └── projects.jsx
+│
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/anas-web-developer/TaskKiller.git
+```
+
+Go to the project folder:
+
+```bash
+cd TaskKiller
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local development URL shown in the terminal.
+
+## Purpose
+
+This project was built as a React practice project to demonstrate component-based development, routing, responsive layouts, state management, and basic task management functionality.
+
+## Author
+
+**Anas Ahmed**
+
+Frontend Developer | React | JavaScript | Web Development
+
+GitHub: https://github.com/anas-web-developer
